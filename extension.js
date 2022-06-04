@@ -1,11 +1,11 @@
 class CrazyGamesAds {
     getInfo() {
         return {
-            id: 'CrazyGamesAds',
+            id: 'crazygamesads',
             name: 'CrazyGames Ads',
             blocks: [
                 {
-                    opcode: 'requestAd',
+                    opcode: 'requestad',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'request ad'
                 }
