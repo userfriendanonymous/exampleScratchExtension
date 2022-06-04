@@ -1,5 +1,4 @@
 class CrazyGamesAds {
-    // ...
     getInfo() {
         return {
             id: 'CrazyGamesAds',
@@ -7,20 +6,15 @@ class CrazyGamesAds {
             blocks: [
                 {
                     opcode: 'requestAd',
-                    blockType: 'command',
+                    blockType: Scratch.BlockType.COMMAND,
                     text: 'request ad',
                     arguments: {
                     }
                 }
             ],
-
-            menus: {
-
-            }
         };
     }
-    requestAd({ }) {
-        console.log('hi');
+    requestAd() {
     }
 }
 Scratch.extensions.register(new CrazyGamesAds());
