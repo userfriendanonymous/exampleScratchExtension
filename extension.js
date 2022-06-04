@@ -7,11 +7,9 @@ class CrazyGamesAds {
                 {
                     opcode: 'requestAd',
                     blockType: Scratch.BlockType.COMMAND,
-                    text: 'request ad',
-                    arguments: {
-                    }
+                    text: 'request ad'
                 }
-            ],
+            ]
         };
     }
     requestAd() {
