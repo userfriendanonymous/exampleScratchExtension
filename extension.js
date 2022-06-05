@@ -1,11 +1,12 @@
-const ArgumentType = require('../../extension-support/argument-type');
-const BlockType = require('../../extension-support/block-type');
-
 class CrazyGamesAds {
+    constructor() { }
     getInfo() {
         return {
             id: 'crazygamesads',
             name: 'CrazyGames Ads',
+            color1: '#8BC34A',
+            color2: '#7CB342',
+            color3: '#689F38',
             blocks: [
                 {
                     opcode: 'requestad',
