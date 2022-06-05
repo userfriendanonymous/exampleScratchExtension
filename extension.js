@@ -1,3 +1,6 @@
+const ArgumentType = require('../../extension-support/argument-type');
+const BlockType = require('../../extension-support/block-type');
+
 class CrazyGamesAds {
     getInfo() {
         return {
@@ -12,7 +15,7 @@ class CrazyGamesAds {
             ]
         };
     }
-    requestAd() {
+    requestad() {
     }
 }
 Scratch.extensions.register(new CrazyGamesAds());
